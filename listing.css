@@ -1,0 +1,240 @@
+body{
+    margin:auto;
+    background-color:rgb(232, 196, 231);
+    font-family: 'Poppins', serif;
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    background-color:#3b2632;
+    color:white;
+    position: fixed;
+    width: 100%;
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color:white;
+    color:rgb(144, 140, 140)
+}
+
+#login, #register{
+    background: white;
+    border: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#register{
+    margin-left: 10px;
+}
+
+#icon{
+    float:left;
+}
+
+#icon > h1{
+    margin:5%;
+    margin-left: 35%;
+}
+#icon > button{
+    margin: 5%
+}
+#social{
+    float:right;
+    margin-top: 12px;
+    margin-right: 2%;
+}
+
+/*Container Css*/
+.container{
+    min-height:700px;
+    width:90%;
+    margin-left: 5%;
+    margin-top:10%;
+    display:inline-block;
+}
+
+#filter{
+    height:500px;
+    width: 20%;
+    box-shadow: 1px 5px 10px black;
+    float:left;
+}
+
+#filter h1 {
+    text-align: center;
+    padding: 3px;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+}
+
+#filter p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#filter div {
+    padding: 3px;
+    margin-left: 12px;
+    line-height: 22px;
+}
+
+#filter input {
+    margin-right: 7px;
+}
+
+#content{
+    width: 75%;
+    margin-left: 4%;
+    /* border:3px solid orange; */
+    float:left;
+    margin-top: 10px;
+    /* overflow: scroll; */
+}
+
+.item {
+    margin-left: 2%;
+    display: flex;
+    margin-top: -10px;
+    box-shadow: 1px 5px 10px black;
+    height: 260px;
+    margin-bottom: 40px;
+    
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.food_image {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.food_image img {
+    border-radius: 15px;
+}
+
+.food_discription {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.food_discription p {
+    margin: 0px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+#product_heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.food_discription button {
+    height: 33px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.day {
+    margin-bottom: 13px;
+    margin-top: 7px;
+}
+
+#breakfast {
+    background: green;
+    color: white;
+    transition: background 0.2s ease-in-out;
+}
+
+#breakfast:hover {
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+
+#lunch {
+    background: rgb(182, 182, 48);
+    color: white;
+    transition: background 0.2s ease-in-out;
+}
+
+#lunch:hover {
+    background: white;
+    color: rgb(182, 182, 48);
+    border: 1px solid rgb(182, 182, 48);
+}
+
+#north-indian {
+    background: rgb(52, 3, 107);
+    color: white;
+    transition: background 0.2s ease-in-out;
+}
+
+#north-indian:hover {
+    background: white;
+    color: rgb(52, 3, 107);
+    border: 1px solid rgb(52, 3, 107);
+}
+
+#fast-food {
+    background: rgb(242, 91, 10);
+    color: white;
+    transition: background 0.2s ease-in-out;
+}
+
+#fast-food:hover {
+    background: white;
+    color: rgb(242, 91, 10);
+    border: 1px solid rgb(242, 91, 10);
+}
+
+
+/*Footer Css*/
+Footer{
+    /* height:100px; */
+    margin-top:3%;
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
